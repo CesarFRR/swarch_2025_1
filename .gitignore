@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual Environments
+env/
+venv/
+ENV/
+.venv/
+*.env
+
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.~lock.*
+
+# Miscellaneous
+*.tmp
+*.temp
+*.cache
+*.bak
+*.orig
+*.rej
