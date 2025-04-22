@@ -1,8 +1,9 @@
-# Python cache and compiled files
+# Python
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
+*.pyc
+dist/
+build/
+*.log
 *.pyc
 
 # Virtual Environments

@@ -9,6 +9,8 @@ services:
       DATABASE_URL: mysql://root:123@swarch-db/swarch-db
     volumes:
       - .:/app
+    restart:
+      unless-stopped
 
   swarch-db:
     image: mysql:8.0
@@ -16,4 +18,4 @@ services:
       MYSQL_ROOT_PASSWORD: 123
       MYSQL_DATABASE: swarch-db
     ports:
-      - "3306:3306"
+      - "3307:3306"
