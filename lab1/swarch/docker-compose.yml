@@ -9,9 +9,8 @@ services:
       DATABASE_URL: mysql://root:123@swarch-db/swarch-db
     volumes:
       - .:/app
-    restart: 
+    restart:
       unless-stopped
-    
 
   swarch-db:
     image: mysql:8.0
